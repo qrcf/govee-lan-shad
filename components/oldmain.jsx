@@ -13,7 +13,7 @@ const buildCommand = (command, data) => {
         }
     }
 }
-export default function MainClient() {
+export default function MainClient2() {
     const [messages, setMessages] = useState([]);
     const [input, setInput] = useState('');
     const [socket, setSocket] = useState(null);
